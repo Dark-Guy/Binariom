@@ -1,0 +1,46 @@
+*{margin: 0; padding: 0;}
+@font-face{
+    font-family: "Lato-Light";
+    src: url("../fonts/Lato-Light.ttf");
+}
+
+.header{
+	height: 80px;
+	background: #eb5e28;
+	text-align: center;
+	color: white;
+	font-family: "Lato-Light";
+        font-size: 30px;}
+.header h1{font-size: 18px;}
+.title{
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    top: 20px;}
+
+.logo{
+	width: 210px;
+	height: 80px;
+	margin: 0 auto;
+	background: url("../img/logo_small.png");
+	background-repeat: no-repeat;
+	background-position: 100%;}
+.section{
+	width: 100%;
+	height: auto;
+	color: #252422;
+	text-align: center;}
+.section i{font-size: 6em;}
+.section form{width: 600px;}
+.section form label{width: 600px;}
+.section form textarea{padding: 5px;}
+.section form input[type="submit"]{padding: 5px;}
+section p{
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Lato-Light";
+	font-size: 18px;
+	color: #252422;
+}
